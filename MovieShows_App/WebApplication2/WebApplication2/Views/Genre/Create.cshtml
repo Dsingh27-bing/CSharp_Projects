@@ -1,0 +1,12 @@
+@model Genre
+<div>
+    <h1>Create New Genre</h1>
+</div>
+<form class="container" method="post">
+    <div class=" my-3">
+        <label for="Name">Genre Name</label>
+        <input type="text" name="Name" class="form-control"/>
+        <span asp-validation-for="Name" class="text-bg-danger"></span>  @*for this you need to add model genre *@
+    </div>
+    <button class="btn btn-primary">Save </button>
+</form>

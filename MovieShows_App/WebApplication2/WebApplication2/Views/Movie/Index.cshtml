@@ -1,0 +1,35 @@
+@model PageResultSet<Movie>
+
+<div class="page-header">
+    <title>Movies List</title>
+</div>
+
+@if (Model.Items.Any())
+{
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model.Items)
+        {
+            <partial name="_MovieCard" model="@item" />
+        }
+    </div>
+}
+else
+{
+    <h1>No Records of Movies</h1>
+}
+
+@if (Model.PageCount > 1)
+{
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @for (int i = 1; i <= Model.PageCount; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-pageNumber="@i"
+                       asp-route-genreId="@ViewBag.SelectedGenre">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}

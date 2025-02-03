@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - WebApplication2</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/WebApplication2.styles.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Movie Shop <img height="40px" width="40px" src="data:image/png;base64,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"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Movie" asp-action="Index">Movie</a>
+                    </li>
+                    <li class="nav-item">
+                        @* <a class="nav-link text-dark" asp-area="" asp-controller="Movie" asp-action="Index">Genre</a> *@
+                        <partial name="_DropDown" model="ViewBag.Genres"/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2025 - WebApplication2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,36 @@
+@model IEnumerable<SelectListItem>
+
+<form method="get" asp-action="Index" asp-controller="Movie" id="headerGenreForm">
+    <select name="genreId" onchange="document.getElementById('headerGenreForm').submit()" class="form-select">
+        <option value="" selected="@(IsSelected(null))">Genres</option>
+
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var genre in Model)
+            {
+                <option value="@genre.Value" selected="@(IsSelected(genre.Value))">
+                    @genre.Text
+                </option>
+            }
+        }
+        else
+        {
+            <option>No genres available</option>
+        }
+    </select>
+</form>
+
+@functions {
+    public string IsSelected(string genreValue)
+    {
+        var selectedGenre = ViewBag.SelectedGenre?.ToString();
+        
+        // If genreValue is null and no genre is selected, this will show the default option
+        if (string.IsNullOrEmpty(selectedGenre))
+        {
+            return genreValue == null ? "selected" : null;
+        }
+        
+        return string.Equals(selectedGenre, genreValue, StringComparison.OrdinalIgnoreCase) ? "selected" : "";
+    }
+}
