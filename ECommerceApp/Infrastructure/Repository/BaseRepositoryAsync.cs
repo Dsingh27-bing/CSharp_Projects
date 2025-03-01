@@ -1,11 +1,12 @@
 using ApplicationCore.Contracts.Repository;
+using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repository;
 
 public class BaseRepositoryAsync<T>:IRepositoryAsync<T> where T:class
 {
-    private readonly ECommerceDbContext _dbContext;
+    private protected readonly ECommerceDbContext _dbContext;
 
     public BaseRepositoryAsync(ECommerceDbContext dbContext)
     {

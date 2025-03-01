@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/Infrastructure/Infrastructure.csproj": {}
+    "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/ApplicationCore/ApplicationCore.csproj": {
+    "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/ApplicationCore/ApplicationCore.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/ApplicationCore/ApplicationCore.csproj",
+        "projectPath": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/ApplicationCore/ApplicationCore.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/ApplicationCore/obj/",
+        "outputPath": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -36,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -81,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/dimplesingh/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/Infrastructure/Infrastructure.csproj": {
+    "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-        "outputPath": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/Infrastructure/obj/",
+        "outputPath": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -107,8 +107,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/ApplicationCore/ApplicationCore.csproj": {
-                "projectPath": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/ApplicationCore/ApplicationCore.csproj"
+              "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }
@@ -121,7 +121,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -166,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/dimplesingh/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

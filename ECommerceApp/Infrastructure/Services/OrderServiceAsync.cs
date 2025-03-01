@@ -54,4 +54,39 @@ public class OrderServiceAsync:IOrderServiceAsync
     {
         return _orderRepositoryAsync.DeleteAsync(id);
     }
+
+    public Task<int> SaveOrder(OrderRequestModel reqModel)
+    {
+        var orderIn= _mapper.Map<Order>(reqModel);
+        return _orderRepositoryAsync.InsertAsync(orderIn);
+    }
+
+    public Task<OrderDetailsResponseModel> CheckOrderHistory(int customerId, int orderId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public async Task<OrderResponseModel> CheckOrderStatus(int id)
+    {
+        var order = await _orderRepositoryAsync.GetByIdAsync(id);
+        var responseModel = _mapper.Map<OrderResponseModel>(order);
+        return responseModel;
+    }
+
+    public Task<int> CancelOrder(int orderId)
+    {
+        return _orderRepositoryAsync.DeleteAsync(orderId);
+    }
+
+    public Task<int> OrderCompleted(OrderRequestModel requestModel)
+    {
+        var orderIn = _mapper.Map<Order>(requestModel);
+        return _orderRepositoryAsync.UpdateAsync(orderIn);
+    }
+
+    public Task<int> UpdateOrder(OrderRequestModel reqModel)
+    {
+        var orderIn = _mapper.Map<Order>(reqModel);
+        return _orderRepositoryAsync.UpdateAsync(orderIn);
+    }
 }

@@ -6,7 +6,7 @@ using ApplicationCore.Model.ResponseModels;
 namespace ECommerceApp.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class OrderController : ControllerBase
     {
         private readonly IOrderServiceAsync _orderService;

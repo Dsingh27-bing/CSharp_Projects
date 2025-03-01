@@ -5231,11 +5231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimplesingh/projects/Documents/Antra/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
+      "projectUniqueName": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "/Users/dimplesingh/projects/Documents/Antra/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
+      "projectPath": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ApplicationCore/ApplicationCore.csproj",
       "packagesPath": "/Users/dimplesingh/.nuget/packages/",
-      "outputPath": "/Users/dimplesingh/projects/Documents/Antra/ECommerceApp/ApplicationCore/obj/",
+      "outputPath": "/Users/dimplesingh/github/CSharp_Projects/ECommerceApp/ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimplesingh/.nuget/NuGet/NuGet.Config"
@@ -5260,7 +5260,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -5329,7 +5329,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/dimplesingh/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aaemF/V2624=",
+  "dgSpecHash": "b0YvHxhZUx0=",
   "success": true,
-  "projectFilePath": "/Users/dimplesingh/projects/Documents/Antra/WebApplication2/ApplicationCore/ApplicationCore.csproj",
+  "projectFilePath": "/Users/dimplesingh/github/CSharp_Projects/MovieShows_App/WebApplication2/ApplicationCore/ApplicationCore.csproj",
   "expectedPackageFiles": [
     "/Users/dimplesingh/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/dimplesingh/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
